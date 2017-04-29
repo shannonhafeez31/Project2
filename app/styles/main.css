@@ -298,3 +298,33 @@ ul li:nth-child(3) a {
 .silentRoll5 ul li:nth-child(3) a {
   background-image: url('../images/salman.jpg');
 }
+
+#image1{
+  position: absolute;
+  margin-top:300px;
+  padding:60px;
+}
+
+#image2{
+  position: absolute;
+  margin-top:300px;
+  padding:60px;
+}
+
+#image3{
+  position: absolute;
+  margin-top:300px;
+  padding:60px;
+}
+
+#image4{
+  position: absolute;
+  margin-top:300px;
+  padding:60px;
+}
+
+#image5{
+  position: absolute;
+  margin-top:300px;
+  padding:60px;
+}

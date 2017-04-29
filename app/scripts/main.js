@@ -24,6 +24,7 @@ $(document).ready(function(){
 
     $('.next').click(function() {
        $('html,body').animate({ scrollTop:$(this).parent().next().offset().top}, 'slow');
+    
 
 });
 });
