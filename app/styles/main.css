@@ -1,3 +1,7 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Convergence');
+
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
@@ -5,14 +9,25 @@
   padding: 0.2em 0;
 }
 
+
 body, html {
     height: 100%;
-
+    background-color: black;
     font-family: 'Ropa Sans', sans-serif;
     font-size:16px;
 
 }
 
+p{
+  font-family: 'Convergence', sans-serif;
+}
+
+a{
+  font-family: 'Arima Madurai', cursive;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Arima Madurai', cursive;
+}
 section {
     min-height: 100%;
 }
@@ -25,17 +40,20 @@ section {
 #full_home{
   min-height:100%;
   background-image: url('../images/home_background.jpg');
+  background-size: cover;
 }
 
 #silent{
   background-image: url('../images/background.jpg');
   min-height:100%;
   padding:10px;
+  background-size: cover;
 }
 #sound{
   min-height: 100%;
   background-image: url('../images/background2.jpg');
   padding:10px;
+  background-size: cover;
 }
 
 #golden{
@@ -43,12 +61,14 @@ section {
   background-image: url('../images/background3.jpg');
   background-repeat: no-repeat;
   padding:10px;
+  background-size: cover;
 }
 
 #masala{
   min-height: 100%;
   background-image: url('../images/background5.jpg');
   padding:10px;
+  background-size: cover;
 
 }
 
@@ -302,29 +322,44 @@ ul li:nth-child(3) a {
 #image1{
   position: absolute;
   margin-top:300px;
-  padding:60px;
+  margin-left: 100px;
+  padding:30px;
+  background-color: #000000;
+  border:dashed white 3px;
 }
 
 #image2{
   position: absolute;
   margin-top:300px;
-  padding:60px;
+  margin-left: 100px;
+  padding:30px;
+  background-color: #000000;
+  border:dashed white 3px;
 }
 
 #image3{
   position: absolute;
   margin-top:300px;
-  padding:60px;
+  margin-left: 100px;
+  padding:30px;
+  background-color: #000000;
+  border:dashed white 3px;
 }
 
 #image4{
   position: absolute;
   margin-top:300px;
-  padding:60px;
+  margin-left: 100px;
+  padding:30px;
+  background-color: #000000;
+  border:dashed white 3px;
 }
 
 #image5{
   position: absolute;
   margin-top:300px;
-  padding:60px;
+  margin-left: 100px;
+  padding: 30px;
+  background-color: #000000;
+  border:dashed white 3px;
 }
