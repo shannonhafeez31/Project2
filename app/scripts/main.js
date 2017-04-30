@@ -24,7 +24,30 @@ $(document).ready(function(){
 
     $('.next').click(function() {
        $('html,body').animate({ scrollTop:$(this).parent().next().offset().top}, 'slow');
-    
 
-});
+
+    });
+
+    $('.button_nav').hide();
+
+    $('#reel').each(function() {
+        animationClick(this, 'rollOut');
+    });
+
+
+
+    function animationClick(element, animation){
+    element = $(element);
+    element.click(
+        function() {
+            element.addClass('animated ' + animation);
+            //wait for animation to finish before removing classes
+            window.setTimeout( function(){
+                element.removeClass('animated ' + animation);
+            }, 1000);
+            $('.button_nav').fadeIn(2000);
+              $('#reel').hide(2000);
+
+        });
+}
 });

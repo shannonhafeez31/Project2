@@ -85,8 +85,7 @@ section {
   height:100%;
   text-align:center;
   color:white;
-  margin-top:200px;
-  margin-left: -20px;
+  margin-top:150px;
 
 
 }
@@ -362,4 +361,14 @@ ul li:nth-child(3) a {
   padding: 30px;
   background-color: #000000;
   border:dashed white 3px;
+}
+
+#reel{
+
+display:block;
+margin:auto;
+margin-top: 30px;
+z-index: 1;
+-webkit-animation-delay: 1s;
+-webkit-animation-iteration-count: 3;
 }
